@@ -1,5 +1,6 @@
 # Andrew Kostukevich
 ### Frontend Developer
+
 ***
 ## Contacts
 * **Email**: dexs.kostukevi4@yandex.by
@@ -8,6 +9,7 @@
 * **Github**: [solum-the-creator](https://github.com/solum-the-creator)
 
 ***
+
 ## Profile
 My main goal is to become a good frontend developer. I like to find solutions to interesting and complex problems. I like to learn and learn new things in all areas of life.
 ### Personal Skills
@@ -16,7 +18,10 @@ My main goal is to become a good frontend developer. I like to find solutions to
 * Curios
 * Responsible
 * Punctual
+
+
 ***
+
 ## Skills
 * JavaScript (Vanilla, OOP, ES6, DOM etc.)
 * HTML
@@ -28,6 +33,7 @@ My main goal is to become a good frontend developer. I like to find solutions to
 * Editors (VSCode, SublimeText, WebStorm, Visual Studio)
 
 ***
+
 ## Code Example
 Given a string **s**, find the length of the longest substring without repeating characters.
 ```
@@ -45,7 +51,9 @@ const lengthOfLongestSubstring = function(s) {
     return res;
 };
 ```
+
 ***
+
 ## Work experience
 Work on a graduation project at the university, which is a website for the national park, with the ability to make hotel reservations, buy tickets, and view and create itineraries around the park. The project was created using the Laravel framework. JavaScript, CSS and HTML were also used. The database used was MySql. [A link](https://github.com/solum-the-creator/Travel-Website-laravel) to the project's github.
 In addition to this project, many other projects were completed during the course of the training.
@@ -55,9 +63,14 @@ In addition to this project, many other projects were completed during the cours
   + Information technology department
 * [The Odin Project](https://www.theodinproject.com) self-study course
 * [FreeCodeCamp](https://www.freecodecamp.org/)
+
+
 ***
+
 ## Languages
 * **Russian** - Native
 * **Belarusian** - Upper-intermediate
 * **English** - Pre-intermediate
+
+
 ***
