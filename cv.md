@@ -57,7 +57,9 @@ const lengthOfLongestSubstring = function(s) {
 ## Work experience
 Work on a graduation project at the university, which is a website for the national park, with the ability to make hotel reservations, buy tickets, and view and create itineraries around the park. The project was created using the Laravel framework. JavaScript, CSS and HTML were also used. The database used was MySql. [A link](https://github.com/solum-the-creator/Travel-Website-laravel) to the project's github.
 In addition to this project, many other projects were completed during the course of the training.
+
 ***
+
 ## Education
 * Belarusian State Technological University
   + Information technology department
