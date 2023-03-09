@@ -60,23 +60,24 @@
             Given a string <span class="code-example-bold">s</span>, find the length of the longest substring without repeating characters.
         </p>
         
-        <code class="code-block">
-            <pre>
-            const lengthOfLongestSubstring = function(s) {<br>
-                let curString = &quot;&quot;;<br>
-                let res = 0;<br>
-                for(let i=0;i&lt;s.length;i++){<br>
-                    let curIndex = curString.indexOf(s[i]);<br>
-                    if(curIndex !== -1 ){<br>
-                        curString = curString.slice(curIndex+1);<br>
+        <div class="code-block">
+            <code>
+                const lengthOfLongestSubstring = function(s) {<br>
+                    let curString = &quot;&quot;;<br>
+                    let res = 0;<br>
+                    for(let i=0;i&lt;s.length;i++){<br>
+                        let curIndex = curString.indexOf(s[i]);<br>
+                        if(curIndex !== -1 ){<br>
+                            curString = curString.slice(curIndex+1);<br>
+                        }<br>
+                        curString+=s[i];<br>
+                        res=res&lt;curString.length?curString.length:res;<br>
                     }<br>
-                    curString+=s[i];<br>
-                    res=res&lt;curString.length?curString.length:res;<br>
-                }<br>
-                return res;<br>
-            };
-        </pre>
-        </code>
+                    return res;<br>
+                };
+            </code>
+        </div>
+        
     </div>
 
     <div class="work-experience">
