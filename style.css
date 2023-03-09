@@ -51,3 +51,7 @@ main>div h3{
     border-radius: 6px;
     font-size: 14px;
 }
+
+.code-block code{
+    display: block;
+}
