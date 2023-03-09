@@ -62,18 +62,18 @@
         
         <code class="code-block">
             <pre>
-            const lengthOfLongestSubstring = function(s) { <br>
-                let curString = &quot;&quot;; <br>
-                let res = 0; <br>
-                for(let i=0;i&lt;s.length;i++){ <br>
-                    let curIndex = curString.indexOf(s[i]); <br>
-                    if(curIndex !== -1 ){ <br>
-                        curString = curString.slice(curIndex+1); <br>
-                    } <br>
-                    curString+=s[i]; <br>
-                    res=res&lt;curString.length?curString.length:res; <br>
-                } <br>
-                return res; <br>
+            const lengthOfLongestSubstring = function(s) {<br>
+                let curString = &quot;&quot;;<br>
+                let res = 0;<br>
+                for(let i=0;i&lt;s.length;i++){<br>
+                    let curIndex = curString.indexOf(s[i]);<br>
+                    if(curIndex !== -1 ){<br>
+                        curString = curString.slice(curIndex+1);<br>
+                    }<br>
+                    curString+=s[i];<br>
+                    res=res&lt;curString.length?curString.length:res;<br>
+                }<br>
+                return res;<br>
             };
         </pre>
         </code>
