@@ -69,17 +69,17 @@
 
             <div class="code-block">
                 <code>const lengthOfLongestSubstring = function(s) {</code>
-                    <code>let curString = &quot;&quot;;</code>
-                    <code>let res = 0;</code>
-                    <code>for(let i=0;i&lt;s.length;i++){</code>
-                        <code>let curIndex = curString.indexOf(s[i]);</code>
-                        <code>if(curIndex !== -1 ){</code>
-                            <code>curString = curString.slice(curIndex+1);</code>
-                        <code>}</code>
-                        <code>curString+=s[i];</code>
-                        <code>res=res&lt;curString.length?curString.length:res;</code>
-                    <code>}</code>
-                    <code>return res;</code>
+                <code>let curString = &quot;&quot;;</code>
+                <code>let res = 0;</code>
+                <code>for(let i=0;i&lt;s.length;i++){</code>
+                <code>let curIndex = curString.indexOf(s[i]);</code>
+                <code>if(curIndex !== -1 ){</code>
+                <code>curString = curString.slice(curIndex+1);</code>
+                <code>}</code>
+                <code>curString+=s[i];</code>
+                <code>res=res&lt;curString.length?curString.length:res;</code>
+                <code>}</code>
+                <code>return res;</code>
                 <code>};</code>
             </div>
 
