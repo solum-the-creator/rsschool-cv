@@ -44,11 +44,10 @@ main>div h3{
     margin-bottom: 8px;
 }
 
-code pre{
+.code-block {
     padding: 10px;
     margin: 24px 0px 12px 0px;
     background-color: rgb(232, 240, 247);
     border-radius: 6px;
     font-size: 14px;
-    line-height: .8;
 }
