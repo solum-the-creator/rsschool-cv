@@ -7,118 +7,114 @@
     <title>HTML&amp;CSS CV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <h1>Andrew Kostukevich</h1>
-    <h3>Frontend Developer</h3>
-
-    <div class="contacts">
-        <h2>Contacts</h2>
-        <ul>
-            <li><span class="contacts-bold">Email</span>: dexs.kostukevi4@yandex.by</li>
-            <li><span class="contacts-bold">Phone</span>: +375 29 546-84-67</li>
-            <li><span class="contacts-bold">Telegram</span>: <a href="https://t.me/solumzy">@solumzy</a></li>
-            <li><span class="contacts-bold">Github</span>: <a href="https://github.com/solum-the-creator">solum-the-creator</a></li>
-        </ul>
-    </div>
-
-    <div class="profile">
-        <h2>Profile</h2>
-        <p>
-            My main goal is to become a good frontend developer. I like to find solutions to interesting and complex problems. I like to learn and learn new things in all areas of life.
-        </p>
-        <h3>Personal Skills</h3>
-        <ul>
-            <li>Fast learner</li>
-            <li>Honest</li>
-            <li>Curios</li>
-            <li>Responsible</li>
-            <li>Punctual</li>
-        </ul>
-    </div>
-
-    <div class="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>JavaScript (Vanilla, OOP, ES6, DOM etc.)</li>
-            <li>HTML</li>
-            <li>CSS/SCSS</li>
-            <li>PHP (Frameworks Laravel and Yii)</li>
-            <li>Git</li>
-            <li>Figma, Photoshop, Illustrator</li>
-            <li>C# (basic knowledge)</li>
-            <li>Editors (VSCode, SublimeText, WebStorm, Visual Studio)</li>
-        </ul>
-    </div>
-
-    <div class="code-example">
-        <h2>Code example</h2>
-        <p>
-            Given a string <span class="code-example-bold">s</span>, find the length of the longest substring without repeating characters.
-        </p>
-        
-        <div class="code-block">
-            <code>
-                const lengthOfLongestSubstring = function(s) {<br>
-                    let curString = &quot;&quot;;<br>
-                    let res = 0;<br>
-                    for(let i=0;i&lt;s.length;i++){<br>
-                        let curIndex = curString.indexOf(s[i]);<br>
-                        if(curIndex !== -1 ){<br>
-                            curString = curString.slice(curIndex+1);<br>
-                        }<br>
-                        curString+=s[i];<br>
-                        res=res&lt;curString.length?curString.length:res;<br>
-                    }<br>
-                    return res;<br>
-                };
-            </code>
+        <h3>Frontend Developer</h3>
+        <div class="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li><span class="contacts-bold">Email</span>: dexs.kostukevi4@yandex.by</li>
+                <li><span class="contacts-bold">Phone</span>: +375 29 546-84-67</li>
+                <li><span class="contacts-bold">Telegram</span>: <a href="https://t.me/solumzy">@solumzy</a></li>
+                <li><span class="contacts-bold">Github</span>: <a
+                        href="https://github.com/solum-the-creator">solum-the-creator</a></li>
+            </ul>
         </div>
-        
-    </div>
-
-    <div class="work-experience">
-        <h2>Work experience</h2>
-        <p>
-            Work on a graduation project at the university, which is a website for the national 
-            park, with the ability to make hotel reservations, buy tickets, and view and create 
-            itineraries around the park. The project was created using the Laravel framework. 
-            JavaScript, CSS and HTML were also used. The database used was MySql. 
-            <a href="https://github.com/solum-the-creator/Travel-Website-laravel">A link</a> to the project's github.
-            In addition to this project, many other projects were completed during the course of the training.
-        </p>
-    </div>
-    <div class="education">
-        <h2>Education</h2>
-        <ul>
-            <li>
-                Belarusian State Technological University
-                <ul>
-                    <li>
-                        Information technology department
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <a href="https://www.theodinproject.com">The Odin Project self-study course</a>
-            </li>
-            <li>
-                <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
-            </li>
-        </ul>
-    </div>
-
-    <div class="languages">
-        <h2>Language</h2>
-        <ul>
-            <li><span class="lang-bold">Russian</span> - Native</li>
-            <li><span class="lang-bold">Belarus</span> - Upper-intermediate</li>
-            <li><span class="lang-bold">English</span> - Pre-intermediate</li>
-        </ul>
-    </div>
+        <div class="profile">
+            <h2>Profile</h2>
+            <p>
+                My main goal is to become a good frontend developer. I like to find solutions to interesting and complex
+                problems. I like to learn and learn new things in all areas of life.
+            </p>
+            <h3>Personal Skills</h3>
+            <ul>
+                <li>Fast learner</li>
+                <li>Honest</li>
+                <li>Curios</li>
+                <li>Responsible</li>
+                <li>Punctual</li>
+            </ul>
+        </div>
+        <div class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>JavaScript (Vanilla, OOP, ES6, DOM etc.)</li>
+                <li>HTML</li>
+                <li>CSS/SCSS</li>
+                <li>PHP (Frameworks Laravel and Yii)</li>
+                <li>Git</li>
+                <li>Figma, Photoshop, Illustrator</li>
+                <li>C# (basic knowledge)</li>
+                <li>Editors (VSCode, SublimeText, WebStorm, Visual Studio)</li>
+            </ul>
+        </div>
+        <div class="code-example">
+            <h2>Code example</h2>
+            <p>
+                Given a string <span class="code-example-bold">s</span>, find the length of the longest substring
+                without repeating characters.
+            </p>
+            <div class="code-block">
+                <code>const lengthOfLongestSubstring = function(s) {</code>
+                <code>let curString = &quot;&quot;;</code>
+                <code>let res = 0;</code>
+                <code>for(let i=0;i&lt;s.length;i++){</code>
+                <code>let curIndex = curString.indexOf(s[i]);</code>
+                <code>if(curIndex !== -1 ){</code>
+                <code>curString = curString.slice(curIndex+1);</code>
+                <code>}</code>
+                <code>curString+=s[i];</code>
+                <code>res=res&lt;curString.length?curString.length:res;</code>
+                <code>}</code>
+                <code>return res;</code>
+                <code>};</code>
+            </div>
+        </div>
+        <div class="work-experience">
+            <h2>Work experience</h2>
+            <p>
+                Work on a graduation project at the university, which is a website for the national
+                park, with the ability to make hotel reservations, buy tickets, and view and create
+                itineraries around the park. The project was created using the Laravel framework.
+                JavaScript, CSS and HTML were also used. The database used was MySql.
+                <a href="https://github.com/solum-the-creator/Travel-Website-laravel">A link</a> to the project's
+                github.
+                In addition to this project, many other projects were completed during the course of the training.
+            </p>
+        </div>
+        <div class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    Belarusian State Technological University
+                    <ul>
+                        <li>
+                            Information technology department
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="https://www.theodinproject.com">The Odin Project self-study course</a>
+                </li>
+                <li>
+                    <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>
+                </li>
+            </ul>
+        </div>
+        <div class="languages">
+            <h2>Language</h2>
+            <ul>
+                <li><span class="lang-bold">Russian</span> - Native</li>
+                <li><span class="lang-bold">Belarus</span> - Upper-intermediate</li>
+                <li><span class="lang-bold">English</span> - Pre-intermediate</li>
+            </ul>
+        </div>
     </main>
 </body>
 </html>
